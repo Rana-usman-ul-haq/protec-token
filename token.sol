@@ -159,7 +159,7 @@ contract Protec is Context, IERC20, Ownable {
 
     uint256 public _prtcTaxOnBuy = 5;
     uint256 public _prtcTaxOnSell = 5;
-    address payable public _prtcTreasuryWallet = payable(0x28ff206CEab212dad9daa1286339b66f2e747c8c);
+    address payable public _prtcTreasuryWallet = payable(0x87BD6FBb6f74045E541CDF2f42FC1f13D2B63ceE);
 
     uint8 private constant _decimals = 18;
     uint256 private constant _tTotal = 100000000 * 10**_decimals;
